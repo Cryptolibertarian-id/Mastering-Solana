@@ -67,7 +67,21 @@ https://solfaucet.com/
 
 ## @solana/web3.js
 
+Here is the structure library of @solana/web3.js, just for help to gain quick visualization on the internal modules.
 
+<img src="assets/solana-web3js.svg" style="zoom:100%;" />
+
+Js-sequence-diagram :
+
+```
+flowchart LR
+    solana/web3.js --> id1(Enumerations) 
+    solana/web3.js --> id2(Classes)
+    solana/web3.js --> id3(Interfaces)
+    solana/web3.js --> id4(Type Aliases)
+    solana/web3.js --> id5(Variables)
+    solana/web3.js --> id6(Functions)
+```
 
 
 
