@@ -35,7 +35,11 @@ Permissionless network with parallel smart contract processing functionality sec
 
 We can communicate with solana node via HTTP Protocol using the JSON-RPC 2.0 Specification. For javascript developer there is solana-web3.js library, so we can create javascript applications that interact with Solana Node.
 
-```sequence
+<img src="assets/JSON-RPC.svg" style="zoom:110%;" />
+
+JS-Sequence-Diagram :
+
+```
 Javascript Apps->Solana Node: Sending HTTP Request
 Note right of Solana Node: JSON-RPC 2.0 Specification
 Solana Node-->Javascript Apps: Response
