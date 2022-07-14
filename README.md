@@ -21,6 +21,10 @@ Author : Gun Gun Febrianza
   - Solana Faucet
   - @solana/web3.js
     - Library Abstraction & Classification
+- Micro Knowledge
+  - @solana/web3.js
+  - Install Solana-Web3.js
+  - Accessing Keypair Class
 - Example Project
   - Airdrop
 
@@ -198,6 +202,20 @@ flowchart LR
     solana/web3.js --> id5(Variables)
     solana/web3.js --> id6(Functions)
 ```
+
+
+
+
+
+# Micro Knowledge
+
+
+
+## @solana/web3.js
+
+
+
+### Install Solana-web3.js
 
 
 
